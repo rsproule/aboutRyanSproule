@@ -8,7 +8,12 @@
     <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style type="text/css">
+      .right{
+        float: right;
+      }
 
+    </style>
     <title>{{ site.title | default: site.github.repository_name }}</title>
   </head>
 
@@ -34,8 +39,8 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
-        <p>Hello World</p>
-        <img src="rsproule.github.io/_layouts/rsfProf.png" alt="Profile">
+        <p>Washington University in St. Louis 2019</p>
+        <img class="right" src="rsfProf.png" alt="Profile">
       </section>
     </div>
 
